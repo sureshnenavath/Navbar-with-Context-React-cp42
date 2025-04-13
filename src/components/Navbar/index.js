@@ -1,8 +1,6 @@
-// Write your code here
-import {Link} from 'react-router-dom'
 
 import ThemeContext from '../../context/ThemeContext'
-
+import {Link} from 'react-router-dom'
 import './index.css'
 
 const Navbar = () => (
