@@ -1,4 +1,3 @@
-
 import ThemeContext from '../../context/ThemeContext'
 import {Link} from 'react-router-dom'
 import './index.css'
@@ -31,7 +30,7 @@ const Navbar = () => (
               <button
                 type="button"
                 className="theme-button"
-                testid="theme"
+                data-testid="theme"
                 onClick={toggleTheme}
               >
                 <img
@@ -63,7 +62,7 @@ const Navbar = () => (
               <button
                 type="button"
                 className="theme-button"
-                testid="theme"
+                data-testid="theme"
                 onClick={toggleTheme}
               >
                 <img
